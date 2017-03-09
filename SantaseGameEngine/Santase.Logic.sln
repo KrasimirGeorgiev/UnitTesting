@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Santase.Logic", "Santase.Logic.csproj", "{C82BEBF4-ED79-48FB-A2AB-4E0D1767B95F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{9E0F43D0-DA59-49C5-8487-1F5C3DD1B13B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckTests", "Tests\DeckTests\DeckTests.csproj", "{91CE8BCE-5E61-4889-9032-0ADEFD42C173}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerActionValidaterTests", "Tests\PlayerActionValidaterTests\PlayerActionValidaterTests.csproj", "{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C82BEBF4-ED79-48FB-A2AB-4E0D1767B95F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C82BEBF4-ED79-48FB-A2AB-4E0D1767B95F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C82BEBF4-ED79-48FB-A2AB-4E0D1767B95F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C82BEBF4-ED79-48FB-A2AB-4E0D1767B95F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91CE8BCE-5E61-4889-9032-0ADEFD42C173}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91CE8BCE-5E61-4889-9032-0ADEFD42C173}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91CE8BCE-5E61-4889-9032-0ADEFD42C173}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91CE8BCE-5E61-4889-9032-0ADEFD42C173}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91CE8BCE-5E61-4889-9032-0ADEFD42C173} = {9E0F43D0-DA59-49C5-8487-1F5C3DD1B13B}
+		{66F0AAEB-C82A-4EC2-A9C9-791F7B027E11} = {9E0F43D0-DA59-49C5-8487-1F5C3DD1B13B}
+	EndGlobalSection
+EndGlobal
